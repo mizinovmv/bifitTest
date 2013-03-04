@@ -9,7 +9,7 @@ public class CopyUtilsTest {
 	@Test
 	public void testCopy() throws Exception {
 		String src = "data/some_text.txt";
-		String dst = "data/some_text_copy.txt";
+		String dst = "data/test";
 		int n = 10;
 		for (int i = 0; i < n; ++i) {
 			Thread.sleep(1000);
