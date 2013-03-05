@@ -58,7 +58,9 @@ public class WordCounter {
 				}
 			}
 		} finally {
-			reader.close();
+			if (reader != null) {
+				reader.close();
+			}
 		}
 		return num;
 	}
